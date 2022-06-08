@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARDEALPET</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <script src="https://kit.fontawesome.com/d4268a8639.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="page-model">
+
+    <header class="topo">
+
+        <div class="container">
+
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/logo.png" alt="logo" ></a> 
+             </div>
+
+            <nav class="menu-principal">
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./servicos.html">Serviços</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+
+                <div class="toggle-menu">
+
+                    <button class="toggle-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                </div>
+
+            </nav>
+
+            
+
+        </div>
+    </header>
+
+    <nav class="toggle-itens">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+        <li><a href="./servicos.html">Serviços</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-page">
+
+        <div class="container">
+
+            <!-- CÓDIGO HTML AQUI -->
+
+            <!-- INSTRUÇÕES PARA A PÁGINA:
+            H2 COM O TITULO DA PÁGINA "FALE CONOSCO".
+
+            3 SECTIONS, CADA SECTION RECEBE UM H2.
+            A PRIMEIRA SECTION TERÁ UM FORM PARA CONTATO COM OS CAMPOS: NOME, TELEFONE, MENSAGEM E UM INPUT SUBMIT PARA ENVIAR A MENSAGEM.
+            NA SEGUNDA DIV, TERÁ OS TELEFONES, E-MAIL DA CLINICA E REDES SOCIAIS.
+            A TERCEIRA TERÁ O MAPA DE LOCALIZAÇÃO COM O ENDEREÇO.
+            -->
+            <div class="divisao-container">
+
+                <section class="contact-main-form">
+                    <h2>PRÉ-AGENDAMENTO</h2>
+                    <span>Utilize este formulário para solicitar o seu pré-agendamento. Nossos profissionais entrarão em
+                        contato para confirmar o agendamento da consulta.</span>
+
+                        <div class="msg-contact-send">
+                            <span><strong>Pré-agendamento realizado com sucesso!</strong></span>
+                            <span>Em breve nossa equipe entrará em contato para confirmar o agendamento.</span>
+                        </div>
+
+                        <div class="msg-contact-Err">
+                            <span>* Preencha todos os campos obrigatórios!</span>
+                        </div>
+
+                    <form action="#">
+                        <label for="tutor">Nome do tutor</label>
+                        <input type="text" name="tutor" id="tutor" required>
+
+                        <label for="pet">Nome do Pet</label>
+                        <input type="text" name="pet" id="pet" required>
+
+                        <label for="email">E-mail de contato</label>
+                        <input type="text" name="email" id="email" required>
+
+                        <label for="telefone">Celular/WhatsApp</label>
+                        <input type="text" name="telefone" id="telefone" required>
+
+                        <label for="animal">Seu pet é um:</label>
+                        <input type="text" name="animal" id="animal" placeholder="Ex: gato, cachorro" required>
+
+                        <label for="dia">Escolha o melhor dia da semana</label>
+                        <select name="dia" id="dia" required>
+                            <option selected value="">Selecione um dia...</option>
+                            <option value="Segunda">Segunda</option>
+                            <option value="Terça">Terça</option>
+                            <option value="Quarta">Quarta</option>
+                            <option value="Quinta">Quinta</option>
+                            <option value="Sexta">Sexta</option>
+                            <option value="Sábado">Sábado</option>
+                        </select>
+
+                        <label for="dia">Escolha o melhor horário</label>
+                        <select name="horario" id="horario" required>
+                            <option selected value="">Selecione um horário...</option>
+                            <option value="08-09">08h-09h</option>
+                            <option value="10-11">10h-11h</option>
+                            <option value="12-13">12h-13h</option>
+                            <option value="14-15">14h-15h</option>
+                            <option value="16-17">16h-17h</option>
+                            <option value="17-18">17h-18h</option>
+                        </select>
+
+                        <label for="termo" class="termo">
+                            <input type="checkbox" name="termo" id="termo" required> Aceito e compreendo que meus dados pessoas
+                            serão utilizados tão somente para a atendimento do meu pedido de pré-agendamento.
+                        </label>
+
+                        <input class="submit-button" type="submit" value="SOLICITAR AGENDAMENTO">
+                    </form>
+
+                </section>
+
+                <section class="sidebar-contact">
+                    <h3>NOSSOS CONTATOS</h3>
+                    <h4>Telefones</h4>
+                    <p><i class="fa-solid fa-phone"></i> 81 90000-0000</p>
+                    <p><i class="fa-solid fa-phone"></i> 81 90000-0000</p>
+
+                    <a href=""><button><i class="fa-brands fa-whatsapp"></i> FALAR NO WHATSAPP</button></a>
+                </section>
+
+            </div>
+
+            <section class="location-clinica">
+                <h2>ONDE ESTAMOS</h2>
+                <span>Saiba onde estamos localizados.</span>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.02032581311!2d-34.9356260857115!3d-8.099408983252777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e8ddca27479%3A0x84db6856bf096798!2sCardeal%20Pet!5e0!3m2!1spt-BR!2sbr!4v1653956898443!5m2!1spt-BR!2sbr"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Rua Aurora Caçote, 632 - Areias, Recife - PE, 50870-490</p>
+            </section>
+
+
+
+        </div>
+
+    </main>
+
+    
+    <footer>
+        <span><strong>CARDEAL PET ©2022</strong></span>
+        <span>TODOS OS DIREITOS RESERVADOS.</span>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/boxMsgSuccess.js"></script>
+</body>
+
+</html>

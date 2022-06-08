@@ -1,0 +1,246 @@
+@media screen and (max-width: 576px) {
+    header.topo ul {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+    /* PÁGINA HOME */
+
+
+    section.principal-home{
+        height: 100vh;
+    }
+
+
+    section.principal-home .container {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .info-box-home {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .info-box-home button {
+        font-size: 1.5rem;
+    }
+
+
+    .info-box-home-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-box-home-img img {
+        width: 100%;
+    }
+
+    /* PÁGINA SOBRE*/
+
+    main.content-page .container {
+        width: 90%;
+    }
+
+    main.content-page .container-about {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    main.content-page .conteudo-page {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main.content-page .multimidia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .card-equipe {
+        width: 48%;
+        margin-bottom: 0.8rem;
+    }
+
+    /* PÁGINA SERVIÇOS */
+    section.page-services .cards-box {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    section.page-services .card-services {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .modal-container {
+        width: 75%;
+    }
+
+    /* PÁGINA CONTATO */
+
+    div.divisao-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    section.contact-main-form {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    section.contact-main-form form input[type="submit"] {
+        width: 100%
+    }
+
+    section.sidebar-contact {
+        width: 100%;
+    }
+
+    section.location-clinica p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    header.topo ul {
+        display: none;
+    }
+
+    header .logo{
+        width: 8%;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+    /* PÁGINA HOME */
+
+    section.principal-home{
+        height: 100%;
+    }
+
+
+    section.principal-home .container {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .info-box-home {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .info-box-home button {
+        font-size: 1.5rem;
+    }
+
+
+    .info-box-home-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .info-box-home-img img {
+        width: 50%;
+    }
+
+    /* PÁGINA SOBRE*/
+
+    main.content-page .container {
+        width: 90%;
+    }
+
+    main.content-page .container-about {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    main.content-page .conteudo-page {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main.content-page .multimidia {
+        width: 100%;
+        height: 400px;
+    }
+
+    .card-equipe {
+        width: 48%;
+        margin-bottom: 0.8rem;
+    }
+
+    /* PÁGINA SERVIÇOS */
+    section.page-services .cards-box {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    section.page-services .card-services {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .modal-container {
+        width: 75%;
+    }
+
+    /* PÁGINA CONTATO */
+
+    div.divisao-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    section.contact-main-form {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    section.contact-main-form form input[type="submit"] {
+        width: 100%
+    }
+
+    section.sidebar-contact {
+        width: 100%;
+    }
+
+    section.location-clinica p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1081px) {
+
+    header .logo{
+        width: 8%;
+    }
+
+    section.sidebar-contact a button{
+        font-size: 0.8rem;
+    }
+
+ 
+
+    section.page-services .cards-box{
+        flex-wrap: wrap;
+    }
+
+    section.page-services .card-services{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+
+}
+
