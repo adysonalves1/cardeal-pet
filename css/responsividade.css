@@ -218,6 +218,10 @@
         font-size: 1rem;
         text-align: center;
     }
+    
+    footer.footer-services {
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 1081px) {
