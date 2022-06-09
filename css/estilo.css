@@ -642,3 +642,8 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+footer.footer-services {
+    position: absolute;
+    bottom: 0;
+}
