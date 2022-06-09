@@ -225,6 +225,10 @@
 }
 
 @media screen and (min-width: 1081px) {
+    
+    .screen-tools{
+        height: 100vh;
+    }
 
     header .logo{
         width: 8%;
